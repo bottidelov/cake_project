@@ -48,7 +48,7 @@ class PagesController extends AppController
             throw new ForbiddenException();
         }
         $page = $subpage = null;
-
+        
         if (!empty($path[0])) {
             $page = $path[0];
         }
